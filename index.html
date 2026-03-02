@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshal Raut | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href__="#hero" class="nav-logo">Harshal</a>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" id="closeMenu">&#x2715;</button>
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Welcome to my portfolio</div>
+    <h1 class="hero-name">Harshal Raut</h1>
+    <p class="hero-tagline">Student &bull; Developer &bull; Creator</p>
+    <div class="hero-btns">
+      <a href="https://drive.google.com/drive/u/0/folders/12dQ3mYcF93wCHG4052Nbg9yHHGmM0XOj" class="btn-primary">Download CV</a>
+      <a href="#contact" class="btn-outline">Contact info</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://github.com/logicwithharshal" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/-harshal-raut-/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:rharshal398@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="scroll-indicator"><i class="fas fa-chevron-down"></i></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <div class="about-img-inner">
+          <!-- <img src="https://drive.google.com/file/d/1fq9CCfOS4A6QAo1IiY_lm2js8ok0PHXx/view?usp=drive_link" alt="harshal"> -->
+          <i class="fas fa-user about-placeholder"></i>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <span class="section-label violet">About Me</span>
+        <h2 class="about-heading">
+          Crafting Digital<br>
+          <span class="gradient-text">Experiences</span>
+        </h2>
+        <p class="about-desc">
+          I'm a passionate developer and creative thinker who loves building beautiful digital experiences.
+          Currently pursuing my degree in ECE, I craft elegant solutions to complex problems.
+          When I'm not coding, I'm exploring new technologies and contributing to open source.
+        </p>
+        <a href="https://drive.google.com/drive/u/0/folders/12dQ3mYcF93wCHG4052Nbg9yHHGmM0XOj" class="btn-outline sm">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <div class="about-stats">
+          <div><div class="stat-num">2</div><div class="stat-label">Years Learning</div></div>
+          <div><div class="stat-num">4</div><div class="stat-label">Projects Built</div></div>
+          <div><div class="stat-num">&#8734;</div><div class="stat-label">Ideas to Create</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-label cyan">What I Know</span>
+      <h2 class="section-title">Skills &amp; Expertise</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon violet"><i class="fas fa-code"></i></div>
+          <span class="skill-card-title">Technical</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Java</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill violet" data-w="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Python / Django</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill violet" data-w="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>HTML / CSS</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill violet" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>JavaScript</span><span>60%</span></div>
+          <div class="skill-bar"><div class="skill-fill violet" data-w="60"></div></div>
+        </div>
+      </div>
+
+      <!-- <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon pink"><i class="fas fa-palette"></i></div>
+          <span class="skill-card-title">Creative</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>UI/UX Design</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill pink" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Figma</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill pink" data-w="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Photography</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill pink" data-w="70"></div></div>
+        </div>
+      </div> -->
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon cyan"><i class="fas fa-wrench"></i></div>
+          <span class="skill-card-title">Tools</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Git &amp; GitHub</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill cyan" data-w="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>VS Code</span><span>95%</span></div>
+          <div class="skill-bar"><div class="skill-fill cyan" data-w="95"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Figma / UI Design</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill cyan" data-w="70"></div></div>
+        </div>
+        
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon amber"><i class="fas fa-users"></i></div>
+          <span class="skill-card-title">Soft Skills</span>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Problem Solving</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill amber" data-w="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Communication</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill amber" data-w="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span>Teamwork</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill amber" data-w="75"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-label violet">My Work</span>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="https://cdn.prod.website-files.com/63f8ca18cae2585db28fd75b/63f8ca18cae2581fd38fd87a_create-interactive-website-calculator-on-webflow.png" alt="Calculator"/>
+        </div>
+        <div class="project-body">
+          <div class="project-top">
+            <span class="project-title">Calculator Project</span>
+            <div class="project-links">
+              <a href="https://github.com/logicwithharshal/Calculator-miniproject"><i class="fab fa-github"></i></a>
+              <a href="https://calculator-miniproject.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <p class="project-desc">Full-stack web-based calculator performing basic arithmetic operations using JavaScript.</p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="https://miro.medium.com/1*phDV7ftecXj-VQ6taHQMJQ.jpeg" alt="Weather"/>
+        </div>
+        <div class="project-body">
+          <div class="project-top">
+            <span class="project-title">Weather Dashboard</span>
+            <div class="project-links">
+              <a href="https://github.com/logicwithharshal/weather-app"><i class="fab fa-github"></i></a>
+              <a href="https://logicwithharshal.github.io/weather-app/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <p class="project-desc">Beautiful weather app with 7-day forecasts, location search, and live maps.</p>
+          <div class="tags">
+            <span class="tag">JavaScript</span><span class="tag">WeatherAPI</span><span class="tag">Fetch API</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="https://www.shutterstock.com/image-photo/document-checklist-digital-online-form-260nw-2644982131.jpg" alt="Form"/>
+        </div>
+        <div class="project-body">
+          <div class="project-top">
+            <span class="project-title">Form Validation Project</span>
+            <div class="project-links">
+              <a href="https://github.com/logicwithharshal/FormValidation-majorproject"><i class="fab fa-github"></i></a>
+              <a href="https://formvalidation-major-project.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <p class="project-desc">Built a client-side form validation system to ensure accurate user input before submission.</p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">SQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="https://miro.medium.com/v2/resize:fit:1000/1*4KZogqsyzv5SAlkKPyuI2Q.jpeg" alt="store"/>
+        </div>
+        <div class="project-body">
+          <div class="project-top">
+            <span class="project-title">Django-Electronic-store</span>
+            <div class="project-links">
+              <a href="https://github.com/logicwithharshal/django-electronic-store"><i class="fab fa-github"></i></a>
+              <a href="https://logicwithharshal.github.io/django-electronic-store/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <p class="project-desc">Full-stack Django eCommerce web app with product browsing, cart system, order placement, and admin product management.</p>
+          <div class="tags">
+            <span class="tag">Django</span><span class="tag">Python</span><span class="tag">SQL</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-label amber">My Journey</span>
+      <h2 class="section-title">Experience &amp; Education</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot violet"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div class="tl-left">
+              <div class="tl-icon violet"><i class="fas fa-briefcase"></i></div>
+              <div>
+                <div class="tl-title">Web Development Intern</div>
+                <div class="tl-org">Plasmid Innovation Ltd</div>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <div><i class="fas fa-calendar-alt"></i>July 2025 – Sept 2025</div>
+              <div><i class="fas fa-map-marker-alt"></i> Nagpur, Maharashtra</div>
+            </div>
+          </div>
+          <p class="tl-desc">• Worked on web development applications using HTML, CSS, and JavaScript.<br>
+            • Successfully delivered assigned industrial projects and recognized for quality work.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="tl-dot cyan"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div class="tl-left">
+              <div class="tl-icon cyan"><i class="fas fa-graduation-cap"></i></div>
+              <div>
+                <div class="tl-title">BTech in ECE</div>
+                <div class="tl-org">Rashtrasant Tukadoji Maharaj Nagpur University</div>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <div><i class="fas fa-calendar-alt"></i> Sept 2023 – Jun 2027</div>
+              <div><i class="fas fa-map-marker-alt"></i> Nagpur, Maharashtra</div>
+            </div>
+          </div>
+          <p class="tl-desc">Pursuing BTech in Electronic and Communication Engineering. Focused on software, electronics, and web technologies.</p>
+        </div>
+      </div>
+
+      <!-- <div class="timeline-item reveal">
+        <div class="tl-dot amber"></div>
+        <div class="tl-card">
+          <div class="tl-top">
+            <div class="tl-left">
+              <div class="tl-icon amber"><i class="fas fa-trophy"></i></div>
+              <div>
+                <div class="tl-title">Hackathon Winner</div>
+                <div class="tl-org">DevHacks 2024</div>
+              </div>
+            </div>
+            <div class="tl-meta">
+              <div><i class="fas fa-calendar-alt"></i> Mar 2024</div>
+              <div><i class="fas fa-map-marker-alt"></i> Virtual</div>
+            </div>
+          </div>
+          <p class="tl-desc">First place for building an AI-powered accessibility tool helping visually impaired users navigate websites.</p>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-label pink">Let's Connect</span>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="section-sub">I'm always excited to meet new people and explore opportunities!</p>
+    </div>
+    <div class="contact-grid">
+      <!-- <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <input type="text"  placeholder="Your Name"  required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn-submit">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div class="success-msg" id="successMsg">
+          <i class="fas fa-check-circle"></i> Message sent successfully!
+        </div>
+      </form> -->
+      <div class="contact-info reveal">
+        <div class="contact-email-row">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <div class="contact-label-text">Email</div>
+            <a href="mailto:rharshal398@gmail.com" class="contact-email">rharshal398@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-label-text" style="margin-bottom:1rem">Connect with me</div>
+        <div class="social-links">
+          <a href="https://github.com/logicwithharshal"    target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/-harshal-raut-/"  target="_blank" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://wa.me/8237922670" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <!-- <a href="rharshal398@gmail.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i> Instagram</a> -->
+          <!-- <a href__="https://twitter.com"   target="_blank" class="social-link"><i class="fab fa-twitter"></i> Twitter</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <span> 2026 Harshal Raut. </span>
+    <!-- <span>&copy; 2026 Harshal Raut. All rights reserved.</span> -->
+    <span>Made with <i class="fas fa-heart" style="color:#ef4444"></i> and code</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
