@@ -45,6 +45,7 @@ https://github.com/logicwithharshal
 
 ## 🤝 Connect with Me
 
+* Portfolio Link: https://logicwithharshal.github.io/portfolio/
 * LinkedIn: https://www.linkedin.com/in/-harshal-raut-
 * Email: rharshal398@gmail.com
 
